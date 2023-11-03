@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+}
+#box{
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.btn{
+    width: 100%;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
